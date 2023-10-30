@@ -1,0 +1,28 @@
+.formContainer {
+  padding: 15px 25px 30px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formInput {
+  display: flex;
+  margin-top: 15px;
+  border: 1px solid grey;
+
+  font-size: 14px;
+  color: black;
+}
+
+.submitBtn {
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
